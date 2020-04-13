@@ -1,0 +1,14 @@
+//! **************************************************************************
+// Written by: Map P.68d on Mon Apr 13 16:31:19 2020
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led<0>" LOCATE = SITE "P46" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "P47" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "P48" LEVEL 1;
+COMP "clk" LOCATE = SITE "P129" LEVEL 1;
+COMP "btn" LOCATE = SITE "P79" LEVEL 1;
+COMP "rst" LOCATE = SITE "P80" LEVEL 1;
+NET "clk_BUFGP/IBUFG" PERIOD = 83.3333333 ns HIGH 50%;
+SCHEMATIC END;
+
